@@ -3,6 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+@media screen  and (max-width:768px) {
+    .derd{
+        flex-direction: column;
+    }
+    .df{
+        width: 95%;
+    }
+    .yui{
+        width: 100%;
+    }
+}
 .widthgh {
     width: 100%;
 }
@@ -82,19 +93,23 @@
 }
 .df{
     align-items: center;
-    width: 1020px;
-    height: 42px;
+    max-width: 1020px;
+    min-height: 42px;
     display: flex;
     justify-content: space-between;
-    margin-left: 210px;
+    margin: 0 auto;
     border-bottom: 6px red solid;
     margin-top: 69px;
 }
 .derd{
+    width: 1020px;
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
-    gap: 120px;
+    justify-content: space-between;
+    /* gap: 60px; */
+    margin: 0 auto;
+    
 }
 .frc{
     margin-bottom: 50px;
@@ -111,17 +126,14 @@
     display: flex;
     gap: 120px;
 }
-.ddd{
-    margin-left: 210px;
-    margin-right: 210px;
-}
+
 .yui{
     position: relative;
 }
 .kbs{
     background-color: #0c0b0b;
     width: 450px;
-    height: 70px;
+    min-height: 70px;
     position: absolute;
     color: white;
     bottom: -1px;

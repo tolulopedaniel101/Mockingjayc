@@ -3,9 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.widthgh {
-    width: 100%;
+@media screen and (max-width: 768px) {
+    .body{
+        max-width: auto;
+        flex-direction: column;
+    }
+    .er{
+        margin: auto;
+    }
+    .set{
+        max-width: auto;
+        flex-direction: column; 
+    }
+    .kl{
+        max-width: auto;
+        flex-direction: column;
+    }
+    .texr{
+        max-width: auto;
+        flex-direction: column;
+    }
+    .imgf{
+        max-width: auto;
+        flex-direction: column;
+    }
+    .mic{
+        width: 100%;
+    }
+    .redsa{
+        width: 100%;
+        
+    }
+    .redsa2{
+        width: 100%;
+    }
 }
 
 .head {
@@ -77,10 +108,12 @@ a:active {
 }
 
 .body {
+    margin: auto;   
+    align-items: center;
     display: flex;
     background-color: #0D0D0D;
     width: 100%;
-    height: 600px;
+    min-height: 600px;
 }
 
 .ok {   
@@ -94,10 +127,12 @@ a:active {
     font-size: 60px;
     line-height: 72.9px;
 }
-.body{
-    width: 100%;
-}
 
+.er{
+    margin: auto;
+    max-width: 474px;
+    min-height: 325px;
+}
 .body p {
     color: white;
     font: Roboto;
@@ -105,8 +140,6 @@ a:active {
     font-weight: 300;
     font-style: italic;
     line-height: 48.6px;
-    width: 453px;
-    height: 49px;
 }
 
 .body button {
@@ -121,23 +154,26 @@ a:active {
     line-height: 36.45px;
 }
 
+.new{
+    width: 95%;
+    margin: auto;
+}
 .set {
-    width: auto;
-    margin-left: 100px;
     display: flex;
-    justify-content: space-between;
+    margin: auto;
     align-items: center;
 }
 
+.textd{
+    margin: auto;
+}
 .texr {
-    margin-left: 100px;
-    width: 505px;
-    height: 193px;
+    margin: auto;
+    max-width: 505px;
+    min-height: 193px;
 }
 
 .pl {
-    width: 505px;
-    height: 70px;
     font: Roboto;
     font-weight: 400;
     font-size: 30px;
@@ -146,8 +182,8 @@ a:active {
 }
 
 .pl2 {
-    width: 436px;
-    height: 104px;
+    max-width: 436px;
+    min-height: 104px;
     font: Roboto;
     font-weight: 300;
     font-size: 18px;
@@ -160,13 +196,13 @@ a:active {
     height: 40px;
     background-color: black;
     text-align: center;
-    margin-left: 100px;
 }
 
 .imgf {
+    width: auto;
+    margin: auto;
     display: flex;
     gap: 22px;
-    margin: 167px 100px 153px 91px;
 }
 .dfr{
     align-items: center;
@@ -182,7 +218,6 @@ a:active {
 }
 
 .kl {
-    width: 100%;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -190,8 +225,8 @@ a:active {
 }
 
 .redsa {
-    width: 641px;
-    height: 70px;
+    max-width: 641px;
+    min-height: 70px;
     font-family: Roboto;
     font-weight: 400;
     font-size: 30px;
@@ -200,8 +235,8 @@ a:active {
 }
 
 .redsa2 {
-    width: 438px;
-    height: 144px;
+    max-width: 438px;
+    min-height: 144px;
     font: Roboto;
     font-weight: 300;
     font-size: 18px;
@@ -209,18 +244,10 @@ a:active {
     color: black;
 }
 
-.br5 {
-    font: roboto;
-    font-weight: 300;
-    font-size: 10px;
-    line-height: 14.32px;
-    color: black;
-}
-
 .ds {
-    margin-top: 153px;
-    width: 641px;
-    height: 228px;
+    margin: auto;
+    max-width: 641px;
+    min-height: 228px;
 }
 
 .bd {
@@ -230,7 +257,7 @@ a:active {
 }
 
 .bd footer {
-    width: 675px;
+    width: 100%;
     height: 28px;
     font-family: roboto;
     font-weight: 500;
@@ -238,31 +265,13 @@ a:active {
     line-height: 28.13px;
     color: white;
     padding-top: 36px;
-    margin-bottom: 36px;
-    margin-left: 382.5px;
-    margin-right: 382.5px;
+    text-align: center;
 }
 
 .mic {
-    margin: 139.75px 96px 67.25px 100px;
+    margin:auto;
 }
 .head2{
     display: flex;
     gap: 89px;
-}
-.c{ width: 90%;
-    display: flex;
-    align-items: center;
-}
-.er{
-    align-content: inherit;
-    margin-left: 261px;
-    width: 474px;
-    height: 325px;
-}
-.er h1{
-    margin-bottom: 30px;
-}
-.er p{
-    margin-bottom: 30px;
 }
